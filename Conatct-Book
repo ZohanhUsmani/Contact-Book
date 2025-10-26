@@ -17,6 +17,7 @@ def View_Contact():
     if not contact:
         print("No contacts found.")
     else:
+      print("Contact List:")
       for a,b in contact.items():
          print(f"Name: {a}, Number: {b['Number']}") 
 
