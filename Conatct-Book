@@ -49,12 +49,4 @@ while True:
          case _:
               print("Invalid Choice")
 
-   if choice == "1":
-    Add_contact()
-   elif choice == "2":
-      Delete_Contact()
-   elif choice == "3":
-     print("Exiting...")
-     break
-   else:
-      print("Invalid Choice")
+  
